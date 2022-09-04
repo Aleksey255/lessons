@@ -59,6 +59,22 @@ console.log(text);
 typeof x
 typeof(x)
 console.log(typeof nuller);
-console.log(typeof DotCheck);
+console.log(typeof (DotCheck));
 
-document.getElementById("one").innerHTML = "Hello World"
+// document.getElementById("one").innerHTML = "Hello World"
+// document.getElementById("one").innerHTML = 1666
+// document.getElementById("one").innerHTML = "<h1>anime</h1>"
+document.querySelector(".black").innerHTML = "<b>black</b>"
+let inputIN = document.querySelector(".text-in")
+let button = document.querySelector(".check-in")
+let div = document.querySelector(".result")
+button.onclick = function() {
+    console.log("ДА!")
+    console.log(inputIN.value);
+    let e = +inputIN.value
+    console.log(e);
+    let h = e + 15
+    console.log(h);
+    div.innerHTML = h
+    
+}
