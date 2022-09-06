@@ -13,17 +13,19 @@
 //     alert("Неверно")
 // }
 
-// let inputin = document.querySelector(".text-in")
-// let button = document.querySelector(".check-in")
-// let div = document.querySelector(".result")
-// button.onclick = function() {
-//    if (inputin > 100) {
-//     div.innerHTML = +inputin.value
-//    } else{
-//     alert("wow")
-//     console.log(+inputin.value);
-//    }
-// }
+let inputin = document.querySelector(".text-in")
+let button = document.querySelector(".check-in")
+let div = document.querySelector(".result")
+
+button.onclick = function() {
+    let e = +inputin.value
+   if (e > 100) {
+    div.innerHTML = e
+   } else{
+    alert("wow")
+    console.log(e);
+   }
+}
        
 // let year = prompt("когда вышел ходячий замок?")
 // if (year < 2004) {
@@ -44,6 +46,7 @@
 // console.log(summer);
 
 // let result = (условие) ? значение1 : значение2 //синтаксис оператора "?"
+
 // let week = prompt("Сколько недель летом?")
 // let summer = (week == 12) ? true : false
 // console.log(summer);
