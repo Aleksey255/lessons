@@ -78,8 +78,7 @@ let b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 button2.onclick = () => {
     for (let i of b ) {
         if (i > 5) {
-            let c = [i]
-           console.log(c);
+           console.log([i]);
         }
     }
 }
