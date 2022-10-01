@@ -20,16 +20,15 @@
 
 // title.setAttribute("date-num",6)
 
-// let genge = document.querySelectorAll(".genge")
-// console.log(genge);
-// for (let i = 0; i < genge.length; i++) {
-//     genge[i].onclick = function() {
-//         let shop = document.querySelector(".shop").value
-//         let price = this.getAttribute("data")
-//         console.log(shop * price);
-//     }
-    
-// }
+let genge = document.querySelectorAll(".genge")
+console.log(genge);
+for (let i = 0; i < genge.length; i++) {
+    genge[i].onclick = function() {
+        let shop = document.querySelector(".shop").value
+        let price = this.getAttribute("data")
+        console.log(shop * price);
+    }
+}
 let elem = document.querySelector(".element")
 let btn = document.querySelector(".but")
 let bnm = document.querySelector(".bun")
